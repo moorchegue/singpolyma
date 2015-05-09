@@ -31,7 +31,7 @@ do_scripts() {
 
 		# Run the script
 		if [ $SHOULD_RUN = 1 ]; then
-			echo "script '$SCRIPT'" >> "$UZBL_FIFO"
+			echo "js page file '$SCRIPT'" >> "$UZBL_FIFO"
 		fi
 	done
 }
